@@ -1,0 +1,221 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Muhammadaziz - Frontend Developer Portfolio">
+    <title>Muhammadaziz | Frontend Developer</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+<body>
+
+    <div class="loader">
+        <div class="loader-logo">MW<span>.</span></div>
+        <div class="loader-line"></div>
+    </div>
+
+    <div class="cursor-glow"></div>
+
+    <header>
+        <nav class="navbar">
+            <a href="#home" class="logo">MW<span>Coding.</span></a>
+
+            <ul class="nav-links">
+                <li><a href="#home" class="active">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+
+            <button class="menu-btn" aria-label="Open menu">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero section" id="home">
+            <div class="hero-content reveal">
+                <div class="available">
+                    <span class="status-dot"></span>
+                    Available for learning & projects
+                </div>
+
+                <p class="hello">HELLO, I'M MUHAMMADAZIZ 👋</p>
+
+                <h1>
+                    I'm a <span class="gradient-text">Frontend</span>
+                    <br>Developer<span class="gradient-text">.</span>
+                </h1>
+
+                <p class="hero-description">
+                    I create modern, responsive and beautiful websites
+                    using HTML, CSS and JavaScript.
+                </p>
+
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn primary-btn">
+                        View Projects <i class="fa-solid fa-arrow-right"></i>
+                    </a>
+                    <a href="#contact" class="btn secondary-btn">
+                        Contact Me
+                    </a>
+                </div>
+
+                <div class="social-links">
+                    <a href="https://github.com/" target="_blank" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://instagram.com/mwebcoding" target="_blank" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://t.me/" target="_blank" aria-label="Telegram"><i class="fa-brands fa-telegram"></i></a>
+                </div>
+            </div>
+
+            <div class="hero-image reveal">
+                <div class="orbit orbit-one"></div>
+                <div class="orbit orbit-two"></div>
+                <div class="profile-card">
+                    <div class="profile-icon"><i class="fa-solid fa-code"></i></div>
+                    <h2>MWCoding</h2>
+                    <p>Frontend Developer</p>
+                    <div class="code-line"><span>const</span> developer = "Muhammadaziz";</div>
+                    <div class="code-line"><span>const</span> passion = "Coding";</div>
+                    <div class="code-line"><span>return</span> "Dream big!";</div>
+                </div>
+                <div class="floating-icon icon-html">HTML</div>
+                <div class="floating-icon icon-css">CSS</div>
+                <div class="floating-icon icon-js">JS</div>
+            </div>
+        </section>
+
+        <section class="section about" id="about">
+            <div class="section-heading reveal">
+                <p class="section-label">GET TO KNOW ME</p>
+                <h2>About <span class="gradient-text">Me</span></h2>
+            </div>
+
+            <div class="about-card reveal">
+                <div class="about-symbol"><i class="fa-solid fa-user-astronaut"></i></div>
+                <div>
+                    <h3>I'm Muhammadaziz</h3>
+                    <p>
+                        I'm a beginner Frontend Developer who loves creating
+                        modern websites and learning new technologies.
+                        I enjoy turning ideas into real projects through code.
+                        My goal is to become a professional developer and
+                        build useful digital experiences.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section class="section skills" id="skills">
+            <div class="section-heading reveal">
+                <p class="section-label">WHAT I KNOW</p>
+                <h2>My <span class="gradient-text">Skills</span></h2>
+            </div>
+
+            <div class="skills-grid">
+                <div class="skill-card reveal">
+                    <i class="fa-brands fa-html5 html-icon"></i>
+                    <h3>HTML5</h3>
+                    <p>Website structure</p>
+                </div>
+                <div class="skill-card reveal">
+                    <i class="fa-brands fa-css3-alt css-icon"></i>
+                    <h3>CSS3</h3>
+                    <p>Modern styling</p>
+                </div>
+                <div class="skill-card reveal">
+                    <i class="fa-brands fa-js js-icon"></i>
+                    <h3>JavaScript</h3>
+                    <p>Interactive websites</p>
+                </div>
+                <div class="skill-card reveal">
+                    <i class="fa-brands fa-github github-icon"></i>
+                    <h3>GitHub</h3>
+                    <p>Code management</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="section projects" id="projects">
+            <div class="section-heading reveal">
+                <p class="section-label">MY RECENT WORK</p>
+                <h2>My <span class="gradient-text">Projects</span></h2>
+            </div>
+
+            <div class="projects-grid">
+                <article class="project-card reveal">
+                    <div class="project-visual visual-one">
+                        <i class="fa-solid fa-laptop-code"></i>
+                    </div>
+                    <div class="project-info">
+                        <span>01 / WEB DEVELOPMENT</span>
+                        <h3>Login Form</h3>
+                        <p>A modern login form built with HTML, CSS and JavaScript.</p>
+                        <div class="project-tags">HTML · CSS · JavaScript</div>
+                        <a href="https://github.com/" target="_blank" class="project-link">GitHub <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </article>
+
+                <article class="project-card reveal">
+                    <div class="project-visual visual-two">
+                        <i class="fa-solid fa-cloud"></i>
+                    </div>
+                    <div class="project-info">
+                        <span>02 / WEB DEVELOPMENT</span>
+                        <h3>API Website</h3>
+                        <p>A website that displays data using a public API.</p>
+                        <div class="project-tags">HTML · CSS · JavaScript</div>
+                        <a href="https://github.com/" target="_blank" class="project-link">GitHub <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </article>
+
+                <article class="project-card reveal">
+                    <div class="project-visual visual-three">
+                        <i class="fa-solid fa-layer-group"></i>
+                    </div>
+                    <div class="project-info">
+                        <span>03 / WEB DEVELOPMENT</span>
+                        <h3>My Portfolio</h3>
+                        <p>My personal portfolio website with modern animations.</p>
+                        <div class="project-tags">HTML · CSS · JavaScript</div>
+                        <a href="https://github.com/" target="_blank" class="project-link">GitHub <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <section class="section contact" id="contact">
+            <div class="section-heading reveal">
+                <p class="section-label">LET'S CONNECT</p>
+                <h2>Contact <span class="gradient-text">Me</span></h2>
+            </div>
+
+            <div class="contact-card reveal">
+                <h3>Have a project in mind?</h3>
+                <p>Let's learn, create and build something amazing together!</p>
+                <a href="https://t.me/MuhammadazizDevloper" target="_blank" class="btn primary-btn">
+                    <i class="fa-brands fa-telegram"></i> Message Me
+                </a>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <a href="#home" class="logo">MW<span>Coding.</span></a>
+        <p>Designed & Built by Muhammadaziz</p>
+        <p class="copyright">© <span id="year"></span> MWCoding. All rights reserved.</p>
+    </footer>
+
+    <button class="back-top" aria-label="Back to top">
+        <i class="fa-solid fa-arrow-up"></i>
+    </button>
+
+    <script src="script.js"></script>
+</body>
+</html>
